@@ -29,8 +29,8 @@ while True:
         print("Reached the end of the video or cannot fetch the frame.")
         break
     
-    # 只保存编号为4的倍数的帧
-    if frame_count % 15 == 0:
+    # 只保存编号为n的倍数的帧
+    if frame_count % 20 == 0:
         frame_filename = os.path.join(output_dir, f'frame_{frame_count:04d}.jpg')
         success = cv2.imwrite(frame_filename, frame)
         
