@@ -14,7 +14,7 @@ To set up the environment, follow these steps:
 3. **Install additional dependencies**:
    If you need to install additional dependencies, ensure they are added to your 'requirements.txt' or 'environment.yml'
 4. **Download COLMAP**:
-   Download COLMAP from https://github.com/colmap/colmap/releases/tag/3.9.1( other versions are also supported)
+   Download COLMAP from https://github.com/colmap/colmap/releases/tag/3.9.1 (other versions are also supported)
 
 ## Script Usage
 1. Turn the video into frames using `<get_frame.py>` the frequency of saving the frames can by setting the label of the frames that are been saved in line 33
