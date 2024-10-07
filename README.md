@@ -1,5 +1,9 @@
 # Colmap-geological-pipline
-This repository provides a script to process a video into a PLY file, generate contour maps and calculate the coastline length and the 
+Geological research is vital for understanding the Earth's development and features, particularly in coastal areas, which act as transitional zones between land and sea. These regions are critical as they facilitate the distribution of materials and energy while showcasing dynamic interactions among various processes. Contours are essential for geologists to analyze terrain, but traditional methods often fall short in efficiently determining contour and coastline lengths.
+
+## Pipeline Overview
+In this research, we introduce a cost-effective and efficient pipeline for geological data analysis, utilizing Structure from Motion and Multi-View Stereo (SFM-MVS) techniques with COLMAP
+   ![image](https://github.com/Mechanic-rubbish/Colmap-geological-pipline/blob/main/fig/pipeline_graph.png)
 ## Installation
 
 To set up the environment, follow these steps:
@@ -37,4 +41,6 @@ To run the script, please refer to the following command example:
 
 Replace `<path_to_ply_file>` and `<path_to_output_images_file>` with the appropriate paths.
 
+The results can be seen in the graph below
+   ![image](https://github.com/Mechanic-rubbish/Colmap-geological-pipline/blob/main/fig/contour_map_lines_20%20(1).png)
 5. obtain the premeter/ coastline length using `<cacluate_premetre.py>`
